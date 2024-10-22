@@ -1,0 +1,85 @@
+h1 {
+    font-size: 2.5rems;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+.semaforo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+.menu {
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 48%;
+    border: 2px solid #000;
+    text-align: center;
+    border-radius: 12px;
+    height: 30px;
+    min-width: 90px;
+}
+
+/* Estilo del contenedor del semáforo */
+.traffic-light {
+    width: 100px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+  }
+  
+  /* Estilo de las luces */
+  .light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: gray; /* Color inicial */
+    transition: background-color 0.3s ease-in-out; /* Transición suave */
+  }
+  
+  /* Estilos para los colores activos */
+  .red {
+    background-color: #f00;
+  }
+  
+  .orange {
+    background-color: #f51;
+  }
+  
+  .green {
+    background-color: #0f0;
+  };
+  /* Añadir sombra al semáforo */
+.traffic-light {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Sombra alrededor de las luces para dar un efecto de iluminación */
+  .light {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .red, .orange, .green {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5); /* Iluminación alrededor cuando está activo */
+  }
+  .label {
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  
