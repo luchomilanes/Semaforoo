@@ -1,9 +1,12 @@
 h1 {
-    font-size: 2.5rems;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: fantasy;
+    letter-spacing: 5px;
 
 
+}
+body {
+  background-color:#ccc
 }
 .container {
     display: flex;
@@ -33,7 +36,7 @@ h1 {
     width: 100px;
     height: 300px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 20px;
     display: flex;
     flex-direction: column;

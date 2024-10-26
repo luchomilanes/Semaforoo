@@ -1,11 +1,12 @@
 <template>
     <div class="container">
-      <h1>Selecciona un color para el semáforo:</h1>
+      <h1> color del semáforo:</h1>
     </div>
    <div>
     <select class="menu"v-model="selectedColor">
         <option value="red">Rojo</option>
-        <option value="orange">Naranja</option>
+        <option value
+        ="orange">Naranja</option>
         <option value="green">Verde</option>
       </select>
    </div>
