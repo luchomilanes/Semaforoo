@@ -1,12 +1,18 @@
 h1 {
+  color: #f00;
     font-size: 3rem;
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 5px;
-
-
+    text-transform: uppercase;
+    border: 3px solid #f00;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-shadow: 0px 0px 3px #f00;
+    box-shadow: 0px 0px 9px #f00;
+    padding: 7px;
 }
 body {
-  background-color:#ccc
+  background-color: #fff;
 }
 .container {
     display: flex;
@@ -36,7 +42,7 @@ body {
     width: 100px;
     height: 300px;
     background-color: black;
-    border-radius: 50px;
+    border-radius: 30px;
     padding: 20px;
     display: flex;
     flex-direction: column;
